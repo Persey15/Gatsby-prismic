@@ -15,7 +15,7 @@ export const query = graphql`
                      ... on PRISMIC_PageBodyCall_to_action_grid {
               type
               label
-              primary {
+             primary {
                 section_title
               }
               fields {
@@ -25,6 +25,7 @@ export const query = graphql`
                       uid
                     }
                   }
+                  
                 }
                 button_label
                 call_to_action_title
